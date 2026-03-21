@@ -3,13 +3,13 @@ spring:
     name: app2
 
   datasource:
-    url: jdbc:mysql://localhost:3306/springboot
+    url: jdbc:mysql://localhost:3306/springboot1
     username: root
     password:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     show-sql: true
  
